@@ -19,6 +19,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy
-        run: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
